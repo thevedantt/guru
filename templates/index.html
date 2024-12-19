@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExaGuru</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <!-- Optional header for future suggestions -->
+    <header class="header">
+        <h2 class="title">Hello, Student</h2>
+        <h4 class="subtitle">How can I help you today?</h4>
+        <!-- <ul class="suggestion-list">
+            <li class="suggestion">
+                <h4 class="text">What is AI?</h4>
+                <span class="icon material-symbols-rounded">help</span>
+                <button class="copy-btn" data-text="What is AI?">Copy</button>
+            </li>
+            <li class="suggestion">
+                <h4 class="text">Write a JavaScript code</h4>
+                <span class="icon material-symbols-rounded">code</span>
+                <button class="copy-btn" data-text="Write a JavaScript code">Copy</button>
+            </li>
+            <li class="suggestion">
+                <h4 class="text">Explain recursion</h4>
+                <span class="icon material-symbols-rounded">loop</span>
+                <button class="copy-btn" data-text="Explain recursion">Copy</button>
+            </li>
+            <li class="suggestion">
+                <h4 class="text">What is Machine Learning?</h4>
+                <span class="icon material-symbols-rounded">smart_toy</span>
+                <button class="copy-btn" data-text="What is Machine Learning?">Copy</button>
+            </li>
+        </ul> -->
+    </header>
+     
+    <div class="container">
+        <!-- Chat list container -->
+    <div class="chat-list"></div>
+
+    </div>
+    
+    <!-- Typing area -->
+    <div class="typing-area">
+        <form action="#" class="typing-form">
+            <div class="input-wrapper">
+                <input type="text" class="typing-input" placeholder="Enter a prompt here" required>
+                <button type="submit" class="icon material-symbols-rounded">send</button>
+            </div>
+            <div class="actions-buttons">
+                <span class="icon material-symbols-rounded">light_mode</span>
+                <span id="delete-chat-button" class="icon material-symbols-rounded">delete</span>
+            </div>
+        </form>
+        <p class="disclaimer-text">
+            ExaGuru may display inaccurate or outdated information. Use at your own risk.
+        </p>
+    </div>
+
+    <script src="static/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</body>
+</html>
